@@ -74,7 +74,7 @@ for i in range(quantity):
         none += 1
 
 def add_commas(number):
-    if money > 999 or money < -999 :
+    if number > 999 or number < -999 :
         number_str = str(number)[::-1]
         result = ",".join(number_str[i:i+3] for i in range(0, len(number_str), 3))
         result = result[::-1]
