@@ -8,7 +8,7 @@ except :
     quantity = 1
     print("if there's error, the system will define to 1")
 
-#all reward
+#actually digits
 _1prize = [np.random.randint(1,9) for o in range(6)]
 _2prize = [[np.random.randint(1, 9) for o in range(6)] for y in range(2)]
 _3prize = [[np.random.randint(1, 9) for o in range(6)] for y in range(10)]
@@ -40,7 +40,7 @@ for i in range(quantity):
     for b in range(6):
         ourrandom = np.random.randint(1, 9)
         print(ourrandom, end="")
-        our.append(ourrandom)
+        our.append(ourrandom) #our lottery number random is here
 
     if _1prize == our:
         _1prizeTrue += 1
@@ -72,6 +72,7 @@ for i in range(quantity):
         suffix2True += 1
     else :
         none += 1
+
 def add_commas(number):
     if money > 999 or money < -999 :
         number_str = str(number)[::-1]
