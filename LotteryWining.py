@@ -9,14 +9,14 @@ except :
     print("if there's error, the system will define to 1")
 
 #actually digits
-_1prize = [np.random.randint(1,9) for o in range(6)]
-_2prize = [[np.random.randint(1, 9) for o in range(6)] for y in range(2)]
-_3prize = [[np.random.randint(1, 9) for o in range(6)] for y in range(10)]
-_4prize = [[np.random.randint(1, 9) for o in range(6)] for y in range(50)]
-_5prize = [[np.random.randint(1, 9) for o in range(6)] for y in range(100)]
-prefix3 = [[np.random.randint(1, 9) for o in range(3)] for y in range(2)]
-suffix3 = [[np.random.randint(1, 9) for o in range(3)] for y in range(2)]
-suffix2 = [np.random.randint(1, 9) for o in range(2)]
+_1prize = [np.random.randint(1,10) for o in range(6)]
+_2prize = [[np.random.randint(1, 10) for o in range(6)] for y in range(2)]
+_3prize = [[np.random.randint(1, 10) for o in range(6)] for y in range(10)]
+_4prize = [[np.random.randint(1, 10) for o in range(6)] for y in range(50)]
+_5prize = [[np.random.randint(1, 10) for o in range(6)] for y in range(100)]
+prefix3 = [[np.random.randint(1, 10) for o in range(3)] for y in range(2)]
+suffix3 = [[np.random.randint(1, 10) for o in range(3)] for y in range(2)]
+suffix2 = [np.random.randint(1, 10) for o in range(2)]
 
 
 #check
